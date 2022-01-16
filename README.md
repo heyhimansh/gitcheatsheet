@@ -2,4 +2,4 @@
 This is an ultimate simple guide to remember basic Git commands.
 
 The contents are brief and resourceful for beginners and users who tend to forget commands frequently like me.
-[Check out the webpage](https://heyhimansh.github.io/gitcheatsheet.github.io/)
+[Check out the webpage](https://heyhimansh.github.io/gitcheatsheet/)
