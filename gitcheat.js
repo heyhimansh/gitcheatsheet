@@ -12,3 +12,4 @@ function infofunc(e, info) {
     e.currentTarget.className += " active";
  }
  document.getElementById("current").click();
+
