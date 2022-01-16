@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: aliceblue;
+}
+.top {
+  background-color: rgb(196, 227, 255);
+  
+  color: rgba(62, 123, 255, 0.836);
+  font-size:25px;
+  padding: 10px;
+  
+}
+H1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  padding: 10px;
+  margin: 30px;
+}
+
+nav {
+  background-color: rgb(196, 227, 255);
+  padding: 10px;
+  color: white;
+  position:sticky;
+  top: 0px;
+  margin-top: 0px;
+}
+
+.networks {
+  padding: 7px;
+
+  transition: width 1s;
+  margin: 1px;
+  margin-left: 15px;
+}
+.networks:hover {
+  width: 52px;
+}
+
+
+
+
+.tab {
+  float: left;
+  border: 1px solid blue;
+  
+  background-color: black;
+  width: 20%;
+  height: none;
+}
+.tab button {
+  display: block;
+  background-color: inherit;
+  color:aliceblue;
+  padding: 15px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 17px;
+}
+.tab button:hover {
+  background-color: gray;
+}
+.tab button.active {
+  background-color: #006400;
+}
+.demo2 {
+  float: left;
+  padding: 40px 30px 30px 40px;
+  margin-top: none;
+  
+  
+  width: 80%;
+  border-left: none;
+  height: 100%;
+}
+.code{
+  background-color: black ;
+  color: rgb(6, 255, 47);
+  font-size:14px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+h2{
+  font-size: 35px;
+}
+p{
+  line-height: 22px;
+}
+
+@media all  and (max-width :730px){
+  H1{text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10px;
+    font-size: 35px;
+    padding: 6px;
+    margin: 4px;
+
+  }
+  nav {
+    background-color: aliceblue;
+    width: 100%;
+    padding: 7px;
+    color: white;
+    position: sticky;
+    top: 0px;
+    margin-top: 0px;
+  }
+  
+  .networks {
+    padding: 5px;
+    width:35px ;
+
+    transition: width 1s;
+    margin: 1px;
+    margin-left: 15px;
+  }
+  .networks:hover {
+    width: 42px;
+  }
+  .tab {
+    float: top;
+    border: 1px solid blue;
+       
+    background-color: black;
+    width: 100%;
+    height: none;
+  }
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color:aliceblue;
+    padding: 10px 12px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 15px;
+  }
+  .tab button:hover {
+    background-color: gray;
+  }
+  .tab button.active {
+    background-color: #00f0f8de;
+  }
+  h2{
+    font-size: 28px;
+  }
+  
+
+}
+@media all and (max-width:480px){
+  H1{text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10px;
+    font-size: 25px;
+    padding: 3px;
+    margin: 2px;
+
+  }
+  .networks {
+    padding: 2px;
+    width:25px ;
+
+    transition: width 1s;
+    margin: 1px;
+    margin-left: 12px;
+  }
+  .networks:hover {
+    width: 30px;
+  }
+  .tab button {
+    
+    padding: 8px 10px;
+    
+    font-size: 14px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  p{
+    font-size:15px ;
+  }
+  
+  
+  
+
+}
