@@ -1,7 +1,7 @@
 <br>
 <br>
 
-### Hey there |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+### Hey there |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 <a href="https://discord.com/channels/@me">
   <img align="left" alt="Himanshu's Discord" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" />
 </a>
@@ -15,7 +15,7 @@
   <img align="left" alt="Himanshu's Spotify" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/spotify.svg" />
 </a>
 
-![](https://visitor-badge.glitch.me/badge?page_id=heyhimansh.heyhimansh)
+![](https://visitor-badge.glitch.me/badge?page_id=heyhimansh.gitcheatsheet)
 
 # Git-Cheat-Sheet <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 This is an ultimate simple guide to remember basic Git commands.
