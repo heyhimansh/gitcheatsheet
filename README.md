@@ -1,11 +1,5 @@
-<h1 align="center">Hi 👋, I'm Himanshu </h1>
-
-<!-- Header  -->
-
-<!-- Contribution Graph-->
-
-![](https://activity-graph.herokuapp.com/graph?username=heyhimansh&theme=react-dark&hide_border=true&area=true)
-</br>
+<br>
+<br>
 
 ### Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 <a href="https://discord.com/channels/@me">
