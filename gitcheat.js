@@ -11,4 +11,5 @@ function infofunc(e, info) {
     document.getElementById(info).style.display = "block";
     e.currentTarget.className += " active";
  }
+
  document.getElementById("current").click();
