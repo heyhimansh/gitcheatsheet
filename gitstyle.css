@@ -1,0 +1,349 @@
+* {
+  box-sizing: 100%;
+}
+
+:root {
+  --theme-color: #f9fafb;
+
+  --body-font: "Poppins", sans-serif;
+  --hover-menu-bg: rgba(12 15 25 / 30%);
+
+  --dropdown-bg: #21242d;
+}
+
+.video-bg {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dark-light {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  background-color: var(--dropdown-bg);
+  box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 50%;
+  z-index: 3;
+  cursor: pointer;
+}
+
+svg {
+  width: 24px;
+  flex-shrink: 0;
+  fill: #ffce45 !important;
+  stroke: #ffce45;
+  transition: 0.5s;
+}
+
+.light-mode .dark-light svg {
+  fill: transparent;
+  stroke: var(--theme-color);
+}
+
+.light-mode {
+  --theme-bg-color: rgb(255 255 255 / 31%);
+  --theme-color: #3c3a3a;
+  --inactive-color: #333333;
+  --button-inactive: #3c3a3a;
+  --search-bg: rgb(255 255 255 / 31%);
+  --dropdown-bg: #f7f7f7;
+  --overlay-bg: rgb(255 255 255 / 30%);
+  --dropdown-hover: rgb(236 236 236);
+  --border-color: rgb(255 255 255 / 35%);
+  --popup-bg: rgb(255 255 255);
+  --hover-menu-bg: rgba(255 255 255 / 35%);
+  --scrollbar-bg: rgb(255 253 253 / 57%);
+  --content-title-color: --theme-color;
+}
+
+body.light-mode:before,
+body.light-mode .video-bg:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.72) 0%,
+    rgb(255 255 255 / 45%) 100%
+  );
+  backdrop-filter: saturate(3);
+}
+
+.dark-light svg {
+  fill: transparent;
+  stroke: var(--theme-color);
+}
+.profile-img {
+  border: 2px solid var(--theme-bg-color);
+}
+.content-section ul {
+  background-color: var(--theme-bg-color);
+}
+.pop-up__title {
+  border-color: var(--theme-color);
+}
+.dropdown.is-active ul {
+  background-color: rgb(255 255 255 / 94%);
+}
+
+.main-tab {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 80%;
+  border-radius: 1%;
+  display: block;
+  box-sizing: content-box;
+}
+
+body {
+  margin: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  background-color: aliceblue;
+}
+.top {
+  background: rgba(0, 0, 0, 0.1);
+  position: static;
+  color: rgba(255, 255, 255);
+  top: 0;
+  width: 100%;
+  font-size: 25px;
+  padding: 1%;
+}
+H1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  font-size:130%;
+  padding: 1%;
+  margin: 2%;
+}
+
+nav {
+  background: rgb(0, 0, 0);
+
+  padding: 1%;
+  color: white;
+  position: sticky;
+  top: 0px;
+  margin-top: 0px;
+}
+
+.networks {
+  padding: 3px;
+  width: 3%;
+  transition: width 0.9s;
+  margin: 1px;
+  margin-left: 15px;
+}
+.networks:hover {
+  width: 3.5%;
+}
+
+.tab {
+  float: left;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: block;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  flex-shrink: 0;
+  width: 15%;
+  height: none;
+  margin-bottom: 1%;
+}
+.tab button {
+  display: block;
+  margin-bottom: 2%;
+  background-color: inherit;
+  color: rgb(255, 255, 255);
+  padding: 6%;
+  border-radius: 3px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 14px;
+}
+.tab button:hover {
+  background-color: gray;
+}
+.tab button.active {
+  background-color: #006400;
+}
+.demo2 {
+  float: left;
+  padding: 30px 20px 20px 30px;
+  margin-top: none;
+
+  width: 65%;
+  border-left: none;
+  height: 100%;
+}
+.code {
+  background-color: black;
+  color: rgb(6, 255, 47);
+  font-size: 14px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h2 {
+  font-size: 35px;
+  color: aliceblue;
+}
+p,
+h4 {
+  line-height: 30px;
+  color: white;
+  font-size: 15px;
+}
+
+.link {
+  color: greenyellow;
+}
+
+
+@media all and (max-width:1120px ) {
+ 
+  H1 {
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10px;
+   
+    padding: 6px;
+    margin: 4px;
+  }
+
+.tab button {
+  
+  font-weight: 400;
+  font-size: 75%;
+}
+
+
+.networks {
+  padding: 1.5px;
+ 
+}
+p,
+h4 {
+  font-size: 12.5px;
+}
+.tab{
+  width:19%;
+}
+  
+}
+
+
+
+
+
+@media all and (max-width: 730px) {
+ 
+  nav {
+    background-color: rgb(0, 0, 0,0.6);
+    border-radius:4px;
+    
+    
+  }
+
+  .networks {
+    padding: 4px;
+    width: 35px;
+        
+  }
+  .networks:hover {
+    width: 42px;
+  }
+  .tab {  
+
+    background-color: rgba(0, 0, 0,0.2);
+    width: 100%;
+    height: none;
+  }
+  .tab button {
+    padding: 10px 12px;
+    width: 100%;
+    margin-bottom: 0.5%;
+    
+  }
+  .tab button:hover {
+    background-color: gray;
+  }
+  .tab button.active {
+    background-color: #00f0f8de;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  
+svg {
+  width: 18px;
+  
+  
+}
+}
+
+
+
+
+
+@media all and (max-width: 550px) {
+  H1 {
+    font-weight: 10px;
+    font-size: 25px;
+    padding: 3px;
+    margin: 2px;
+  }
+  .networks {
+    padding: 1.5px;
+    width: 25px;
+
+    transition: width 1s;
+    margin: 1px;
+    margin-left: 15px;
+  }
+  .networks:hover {
+    width: 30px;
+  }
+  .tab button {
+    padding: 6px 8px;
+
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 12px;
+    
+  }
+  .demo2 {
+  
+    width: 90%;
+  }
+  svg {
+    width: 18px; 
+  }
+  
+    
+}
