@@ -17,7 +17,7 @@
 
 ![](https://visitor-badge.glitch.me/badge?page_id=heyhimansh.gitcheatsheet)
 
-# Git-Cheat-Sheet <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+# Git-Cheat-Sheet 
 This is an ultimate simple guide to remember basic Git commands.
 
 The contents are brief and resourceful for beginners and users who tend to forget commands frequently like me <3 .
